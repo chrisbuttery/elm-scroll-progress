@@ -7,9 +7,9 @@ elm package install chrisbuttery/elm-scroll-progress
 ```
 
 ### Examples
-You can scope to a specific element (e.g. and article) or to the body.
+You can scope to a specific element (e.g. and article) or to the document.
 
-[Article](http://chrisbuttery.github.io/elm-scroll-progress/examples/article/dist/index.html) | [Body](http://chrisbuttery.github.io/elm-scroll-progress/examples/body/dist/index.html)
+[Article](http://chrisbuttery.github.io/elm-scroll-progress/examples/article/dist/index.html) | [Document](http://chrisbuttery.github.io/elm-scroll-progress/examples/document/dist/index.html)
 
 ## Usage
 
