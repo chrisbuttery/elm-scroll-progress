@@ -130,6 +130,4 @@ view model =
             [ class "scroll-progress"
             , style styles
             ]
-            [ div [ class "scroll-printout" ]
-                [ text (toString model) ]
-            ]
+            []
