@@ -14,18 +14,9 @@ type alias AppModel =
     }
 
 
-childModel : ScrollProgress.Model
-childModel =
-    { progress = 0
-    , color = Nothing
-    , to = Just "lightsalmon"
-    , from = Just "lightseagreen"
-    }
-
-
 initialModel : AppModel
 initialModel =
-    { progressModel = childModel }
+    { progressModel = ScrollProgress.initialModel }
 
 
 init : ( AppModel, Cmd Msg )
