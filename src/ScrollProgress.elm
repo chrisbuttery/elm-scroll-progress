@@ -1,13 +1,28 @@
 module ScrollProgress exposing (..)
 
+{-| ScrollProgress functions and Msg.
+
+# Model
+@docs Model, ScrollAttributes, initialModel
+
+# Message
+@docs Msg
+
+# Update function
+@docs update, calculateProgress
+
+# View function
+@docs view
+
+-}
+
 import Html exposing (Html, text, div)
 import Html.App as App
 import Html.Attributes exposing (style, class)
 
 
--- MODEL
-
-
+{-| A type representing a model.
+-}
 type alias Model =
     { progress : Int
     , color : Maybe String
@@ -16,6 +31,8 @@ type alias Model =
     }
 
 
+{-| A type representing the arrtibutes we're expecting 'on scroll'.
+-}
 type alias ScrollAttributes =
     { scrollTop : Int
     , targetScrollHeight : Int
@@ -23,6 +40,8 @@ type alias ScrollAttributes =
     }
 
 
+{-| Initalize the model
+-}
 initialModel : Model
 initialModel =
     { progress = 0
@@ -32,18 +51,14 @@ initialModel =
     }
 
 
-
--- MESSAGES
-
-
+{-| A union type representing The Elm Architect's `Msg`
+-}
 type Msg
     = Progress ScrollAttributes
 
 
-
--- UPDATE
-
-
+{-| A function to calculate the percentage an element has been scrolled
+-}
 calculateProgress : ScrollAttributes -> Int
 calculateProgress attributes =
     let
@@ -70,6 +85,8 @@ calculateProgress attributes =
             progress
 
 
+{-| The Elm Architect's update function.
+-}
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
@@ -77,10 +94,8 @@ update msg model =
             ( { model | progress = calculateProgress attributes }, Cmd.none )
 
 
-
--- VIEW
-
-
+{-| A view function that will render the scroll progress ekement.
+-}
 view : Model -> Html Msg
 view model =
     let
