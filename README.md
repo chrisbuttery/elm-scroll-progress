@@ -132,3 +132,10 @@ newChildModel =
 # Building examples
 
 Install [Create Elm App](https://github.com/halfzebra/create-elm-app) and run `elm-app build` or `elm-app start` inside of `examples/article` & `examples/body`.
+
+Thanks goes to [Michael Troy](https://github.com/michaletroy) for creating the examples.
+
+> [chrisbuttery.com](http://chrisbuttery.com) &nbsp;&middot;&nbsp;
+> GitHub [@chrisbuttery](https://github.com/chrisbuttery) &nbsp;&middot;&nbsp;
+> Twitter [@buttahz](https://twitter.com/buttahz) &nbsp;&middot;&nbsp;
+> elm-lang slack [@butters](http://elmlang.herokuapp.com/)
