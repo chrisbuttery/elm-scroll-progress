@@ -45,7 +45,7 @@ type alias ScrollAttributes =
 initialModel : Model
 initialModel =
     { progress = 0
-    , color = Just "red"
+    , color = Just "#1684f6"
     , from = Nothing
     , to = Nothing
     }

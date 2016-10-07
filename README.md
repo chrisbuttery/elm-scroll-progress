@@ -90,7 +90,7 @@ Note: For this to work in Firefox, we need to check for `document.documentElemen
 ## Overrides
 
 All types for defining colors are `Maybe String`.  
-By default, the color of the progress scale is defined as `Just ****`, however these `String` values can be whatever CSS colors you wish e.g: `"#336699"`, `"honeydew"`, `"rgba(0,0,0,0.5)"`, etc.
+By default, the color of the progress scale is defined as `Just #1684f6` however these `String` values can be whatever CSS colors you wish e.g: `"#336699"`, `"honeydew"`, `"rgba(0,0,0,0.5)"`, etc.
 
 You can choose to overide this color or include a linear gradient.
 
