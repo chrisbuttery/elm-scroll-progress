@@ -133,7 +133,7 @@ newChildModel =
 
 Install [Create Elm App](https://github.com/halfzebra/create-elm-app) and run `elm-app build` or `elm-app start` inside of `examples/article` & `examples/body`.
 
-Thanks goes to [Michael Troy](https://github.com/michaletroy) for creating the examples.
+Thanks goes to [Michael Troy](https://github.com/michaeltroy) for creating the examples.
 
 > [chrisbuttery.com](http://chrisbuttery.com) &nbsp;&middot;&nbsp;
 > GitHub [@chrisbuttery](https://github.com/chrisbuttery) &nbsp;&middot;&nbsp;
